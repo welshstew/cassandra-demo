@@ -1,3 +1,3 @@
 FROM openshift3/metrics-cassandra:latest
 
-COPY ./opt /opt
+COPY ./scripts /opt/apache-cassandra/scripts
